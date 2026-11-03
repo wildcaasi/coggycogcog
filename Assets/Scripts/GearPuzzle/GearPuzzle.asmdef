@@ -1,0 +1,5 @@
+{
+    "name": "GearPuzzle",
+    "rootNamespace": "GearPuzzle",
+    "references": ["Unity.InputSystem", "Unity.TextMeshPro", "UnityEngine.UI"]
+}

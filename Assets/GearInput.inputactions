@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "name": "GearInput",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "bab3a6e8-fa67-41cf-8131-52522044e3ed",
+            "actions": [
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "3d0a6337-6309-4bd3-a311-6fedf0ccb93c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Tap",
+                    "type": "PassThrough",
+                    "id": "f77af0c8-7dc1-4a64-9044-b8047c9418c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "225c56e2-3966-4e72-954d-d50b24ff9324",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2326abda-d5c0-4869-a0cd-be88b7be59b0",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fb24d27-4beb-446e-8c75-e9678103491a",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
